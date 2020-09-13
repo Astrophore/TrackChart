@@ -1,16 +1,13 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router";
-import { StockForm } from "./components/StockForm";
+import React, { Component } from "react";
+import StockList from "./components/StockList.js";
 
-function App() {
-  return (
-    <div style={{ maxWidth: "30rem", margin: "4rem auto" }}>
-      <Router>
-        <Switch>
-          <Route exact path="/" Component={StockForm} />
-        </Switch>
-      </Router>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <StockList />
+      </div>
+    );
+  }
 }
 export default App;
