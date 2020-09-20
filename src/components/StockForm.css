@@ -1,0 +1,39 @@
+body{
+    background-color: blueviolet;
+  }
+  
+  .App{
+    background-color: darkblue;
+    min-width: height 500px;
+    width: 400px;
+    margin: 40px auto;
+  }
+  h2{
+    color: aqua;
+    text-align: center;
+  }
+  #stockForm input{
+    background-color: blanchedalmond;
+    border: 0;
+    width: 200px;
+    height:50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  #stockForm input::placeholder{
+    color:gray;
+    font-size: smaller;
+  }
+  #stockForm input:focus,#stockForm button:focus{
+    outline:none;
+  }
+  #stockForm button{
+    height:50px;
+    width:80px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+  } 
